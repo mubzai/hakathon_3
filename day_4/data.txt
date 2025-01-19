@@ -1,0 +1,27 @@
+  {
+      name: 'Recliner Chair',
+      image: '/trend3.jpg', // Replace with actual image paths
+      price: 32, // Store price as a number (without the $)
+    },
+    {
+      name: 'Armchair',
+      image: '/trend4.jpg', // Replace with actual image paths
+      price: 45, // Store price as a number (without the $)
+    },
+    {
+      name: 'Rocking Chair',
+      image: '/trend3.jpg', // Replace with actual image paths
+      price: 28, // Store price as a number (without the $)
+    },
+    {
+      name: 'Cantilever Chair',
+      image: '/trend4.jpg', // Replace with actual image paths
+      price: 50, // Store price as a number (without the $)
+    },
+  ];
+
+{ id: 1, title: '24/7 Delivery', description: 'Round-the-clock delivery anytime, anywhere.', icon: <FaTruck size={30} /> },
+    { id: 2, title: 'Free Shipping', description: 'Free shipping on orders above $50.', icon: <FaShippingFast size={30} /> },
+    { id: 3, title: 'Easy Returns', description: 'Hassle-free returns within 30 days.', icon: <FaUndo size={30} /> },
+    { id: 4, title: 'Secure Payment', description: 'Transactions secured with encryption.', icon: <FaLock size={30} /> },
+  ];
