@@ -1,0 +1,7 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product page > Verify product list,Products displayed correctly,Products displayed correctly,Passed,Low,QA Tester A,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,QA Tester B,Handled gracefully
+TC003,Check cart functionality,Add a product to cart > Verify cart contents,"Product is added, and the cart count updates",Cart updates as expected,Passed,High,QA Tester A,Works as expected
+TC004,Ensure mobile responsiveness,Resize browser window > Verify layout,Layout adjusts correctly for different screen sizes,Layout adjusts correctly for mobile views,Passed,Medium,QA Tester C,Responsive layout verified
+TC005,Validate login with invalid password,Enter invalid password > Click login button,Display error message: 'Invalid credentials',Correct error message displayed,Passed,High,QA Tester B,No issues found
+TC006,Test navigation menu on desktop,Open homepage > Hover over navigation items,Navigation menu expands and displays sub-items,Sub-items displayed as expected,Passed,Medium,QA Tester D,Works as expected
